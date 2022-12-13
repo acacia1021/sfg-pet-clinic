@@ -8,12 +8,12 @@
   <parent>
     <groupId>acacia.springframework</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
   </parent>
 
   <groupId>acacia.springframework</groupId>
   <artifactId>pet-clinic-data</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3-SNAPSHOT</version>
 
   <name>pet-clinic-data</name>
   <!-- FIXME change it to the project's website -->
