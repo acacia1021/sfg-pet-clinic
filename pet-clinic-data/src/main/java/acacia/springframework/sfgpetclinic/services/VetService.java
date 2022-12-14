@@ -4,11 +4,13 @@ import java.util.Set;
 
 import acacia.springframework.sfgpetclinic.model.Vet;
 
-public interface VetService {
+public interface VetService extends CrudService <Vet, Long>{
     
-    Vet findById(Long id);
+    //Can be deleted with CrudService extension
+    
+    // Vet findById(Long id);
 
-    Vet save(Vet vet);
+    // Vet save(Vet vet);
 
-    Set<Vet> findAll();
+    // Set<Vet> findAll();
 }

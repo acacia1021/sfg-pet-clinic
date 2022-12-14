@@ -4,13 +4,15 @@ import java.util.Set;
 
 import acacia.springframework.sfgpetclinic.model.Owner;
 
-public interface OwnerService {
+public interface OwnerService extends CrudService<Owner, Long> {
 
     Owner findByLastName(String lastName);
-    
-    Owner findById(Long id);
 
-    Owner save(Owner owner);
+    // Can be deleted with CrudService extension
 
-    Set<Owner> findAll();
+    // Owner findById(Long id);
+
+    // Owner save(Owner owner);
+
+    // Set<Owner> findAll();
 }
